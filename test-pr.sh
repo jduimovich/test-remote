@@ -25,7 +25,7 @@ spec:
   - name: revision
     value: "$REVISION" 
   - name: output-image
-    value: image-registry.openshift-image-registry.svc:5000/$NS/code-with-quarkus:test
+    value: image-registry.openshift-image-registry.svc:5000/$NS/code-with-quarkus:$REVISION
   - name: dockerfile
     value: https://raw.githubusercontent.com/jduimovich/devfile-sample-code-with-quarkus/fast-and-uber/src/main/docker/Dockerfile.jvm.staged
   pipelineRef:
