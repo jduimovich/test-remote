@@ -1,0 +1,2 @@
+bash test-pr.sh fast-jar
+bash test-pr.sh uber-jar 
